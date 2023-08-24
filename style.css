@@ -74,8 +74,8 @@ body, h1, h2, h3, p, ul, li, form {
   }
   
   .project img {
-    max-width: 100vh;
-    height: autp;
+    max-width: 100%;
+    height: auto;
   }
   
   #prevBtn, #nextBtn {
