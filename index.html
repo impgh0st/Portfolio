@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DJ Saighman - Web Designer/Developer Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>David Saighman</h1>
+    <p>Web Designer & Developer</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="images/djsaighman.jpg" alt="DJ Saighman - Web Designer/Developer">
+    <p>Hello! I'm DJ Saighman, a passionate web designer and developer with a background that adds remarkable depth to my journey. My venture into the digital realm originated from a fascination with crafting captivating and interactive websites that offer exceptional user experiences through the enchantment of HTML, CSS, and JavaScript artistry. My coding prowess extends beyond the frontend, encompassing backend technologies like PostgreSQL, PHP, and Python, which empower me to construct dynamic and efficient web applications that seamlessly cater to user needs.</p>
+    <p>Before my foray into web development, I thrived as an automotive technician for nearly 15 years, a transition marked by both challenges and necessity. As a disabled veteran, my physical limitations rendered skilled technical tasks unfeasible. It was my eldest child's independent coding mastery at the tender age of 13 that ignited my passion for coding and website development, propelling me onto this transformative journey.</p>
+    <p>Currently, I'm diligently pursuing a Bachelor's degree in Information Technology with a specific focus on the intricacies of multi-tier architecture. This educational trajectory delves deep into the interplay of various technological layers, illuminating the path to creating potent and scalable applications.</p>
+    <p>In tandem with my learning odyssey, I'm fervently constructing a portfolio that serves as a testament to my evolving proficiency and creative capabilities. Each project, regardless of its scale, serves as a stepping stone towards embracing grander opportunities. Whether crafting a personal blog, fashioning an e-commerce platform, or pioneering a cutting-edge web application, I relish embracing novel challenges and transmuting them into digital realities.</p>
+    <p>I wholeheartedly invite you to explore my portfolio and engage with me if you seek collaboration or wish to explore the prospects of your next project. Together, let's conjure something truly remarkable!</p>
+  </section>
+  
+        <!--Portfolio Section-->
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="slider">
+      <div class="project">
+        <img src="images/aboutMeAssignment.jpeg" alt="aboutMeAssignment">
+        <h3>My First About Me page.</h3>
+        <p>This was my first attempt at making a profile page, The idea was good, but the colors were a bit too flashy and abrupt.</p>
+      </div>
+      <div class="project">
+        <img src="images/antiqueGallery.jpeg" alt="antiqueGallery">
+        <h3>Antique Gallery page</h3>
+        <p>I created this page for a close personal friend that restores vintage furniture. At the time that I made the page, I thought that they were antiques, however, I learned that there is a difference between the two. An antique is an item that is still in relatively good condition, and has its original paint, decals and materials. A vintage item is an item that has been restored to the original condition, by means of replacing paint, materials and decals.</p>
+      </div>
+      <div class="project">
+        <img src="images/antiquePage.jpeg" alt="antiquePage">
+        <h3>Antique Landing page</h3>
+        <p>I created this page for a close personal friend that restores vintage furniture. At the time that I made the page, I thought that they were antiques, however, I learned that there is a difference between the two. An antique is an item that is still in relatively good condition, and has its original paint, decals and materials. A vintage item is an item that has been restored to the original condition, by means of replacing paint, materials and decals.</p>
+      </div>
+      <div class="project">
+        <img src="images/diabloGear.jpg" alt="diabloGear">
+        <h3>Diablo 3 webpage - Gear</h3>
+        <p>This page was crafted as part of a school project and earned an "A" for its comprehensive excellence. It was developed using a combination of HTML, CSS, and JavaScript technologies.</p>
+      </div>
+      <div class="project">
+        <img src="images/diabloHome.jpg" alt="diabloHome">
+        <h3>Diablo 3 webpage - Home</h3>
+        <p>This page was crafted as part of a school project and earned an "A" for its comprehensive excellence. It was developed using a combination of HTML, CSS, and JavaScript technologies.</p>
+      </div>
+      <div class="project">
+        <img src="images/gamingPage.jpeg" alt="gamingPage">
+        <h3>Gaming</h3>
+        <p>This is a small list of the games that I have played or am currently playing. </p>
+      </div>
+      <div class="project">
+        <img src="images/landingPage-assignment.jpeg" alt="about me assignment">
+        <h3>School Assignment landing page, incorporates HTML, JavaScript and CSS.</h3>
+        <p>This is a landing page I created early on in my venture to become a webpage designer. </p>
+      </div>
+      <div class="project">
+        <img src="images/tripsAndAdventures.jpeg" alt="assignment">
+        <h3>Vacations page</h3>
+        <p>This is a page I created to showcase the vacations that my family has taken over the last few years. Many great memories from each of these trips.</p>
+      </div>
+      <!-- More project items can be added here -->
+    </div>
+    <button id="prevBtn">Next</button>
+    <button id="nextBtn">Previous</button>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" action="contact.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 DJ Saighman</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
