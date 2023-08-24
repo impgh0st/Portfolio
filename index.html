@@ -82,19 +82,25 @@
   </section>
   
   <section id="contact">
-    <h2>Contact</h2>
-    <form id="contactForm" action="contact.php" method="post">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out with any questions or inquiries.</p>
+    <form action="send_email.php" method="post">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
-      
+      <br>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
-      
+      <br>
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
-      
+      <br>
       <button type="submit">Send</button>
     </form>
+    <div class="contact-info">
+      <p>Phone: <a href="tel:+17203940692">Phone</a></p>
+      <p>Email: <a href="mailto:dhsaighman@gmail.com">Email</a></p>
+      <p>Web: <a href="https://www.djwebfolio.w3spaces.com">DJ Webfolio</a></p>
+    </div>
   </section>
   
   <footer>
