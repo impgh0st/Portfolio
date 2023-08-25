@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body, h1, h2, h3, p, ul, li, form {
     text-align: center;
     padding: 1rem 0;
   }
-  
+
   /* Navigation */
   nav ul {
     list-style: none;
