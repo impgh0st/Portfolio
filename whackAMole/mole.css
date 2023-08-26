@@ -1,0 +1,68 @@
+.pf {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .wgs {
+    display: inline-block;
+    position: relative;
+    width: 320px;
+    height: 241px;
+    overflow: hidden;
+  }
+  
+  .wgs__mole-head {
+    position: absolute;
+    width: 188px;
+    height: 178px;
+    left: 54px;
+    transition: margin-top 0.25s;
+  }
+  
+  .wgs__dirt-pile {
+    position: absolute;
+    width: 320px;
+    height: 110px;
+    top: 131px;
+  }
+  
+  .wgs__mole-head--hidden {
+    margin-top: 482px;
+  }
+  
+  .sb {
+    background-color: cornflowerblue;
+    border-bottom: 1px solid #645DED;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+  } 
+  
+  .sb__mole-counter {
+    flex: 1 0 0;
+    text-align: right;
+  } 
+  
+   .sb__score-holder {
+    flex: 1 0 0;
+  }
+  
+  .sb__game-over--hidden {
+    display: none;
+  }
+
+#reset{
+  margin-top: 10px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust if needed */
+}
