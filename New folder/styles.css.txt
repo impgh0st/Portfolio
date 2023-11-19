@@ -1,0 +1,53 @@
+/* Table Page Styles */
+
+.tbody {
+  background-image: url("https://th.bing.com/th/id/R.83d7c8d208395ee068469adc2d905a06?rik=ap545%2fAJcpUixg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fd%2f3%2f666295.jpg&ehk=%2fQMMPlZr376yA73NPp0My5DQhUtLtJYsIShUHkgfKI8%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+.tbody p {
+  font-family: serif, arial;
+  font-size: 16px;
+}
+
+.tbody h1 {
+  color: #73a9c2;
+  text-align: center;
+}
+
+.tbody a ul li {
+  height: 75px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.tbody .container {
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: center;
+  text-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.tbody th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid;
+}
+
+.tbody th {
+  text-align: left;
+}
+
+.tbody thead th {
+  background-color: rgba(15, 168, 228, 0.37);
+}
+S
